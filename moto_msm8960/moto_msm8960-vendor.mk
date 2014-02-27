@@ -17,5 +17,5 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/motorola/moto-msm8960/overlay
 
-$(call inherit-product, vendor/motorola/moto-msm8960/moto-msm8960-vendor-blobs.mk)
+$(call inherit-product, vendor/motorola/moto_msm8960/moto_msm8960-vendor-blobs.mk)
 $(call inherit-product, vendor/motorola/qcom-common/qcom-common-vendor.mk)
