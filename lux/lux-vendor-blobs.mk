@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/lux/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/lux/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/lux/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/motorola/lux/proprietary/lib/hw/nfc_nci.bcm2079x.default.so:system/lib/hw/nfc_nci.bcm2079x.default.so \
     vendor/motorola/lux/proprietary/lib/hw/sensorhub.msm8916.so:system/lib/hw/sensorhub.msm8916.so \
@@ -136,12 +137,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/lux/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/lux/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/lux/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/lux/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/lux/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/lux/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/lux/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/lux/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/lux/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/motorola/lux/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/motorola/lux/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     vendor/motorola/lux/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/lux/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/lux/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
